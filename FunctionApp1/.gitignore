@@ -1,0 +1,56 @@
+# -----------------------------
+# Azure Functions
+# -----------------------------
+local.settings.json
+.azurefunctions/
+
+# -----------------------------
+# Build output
+# -----------------------------
+bin/
+obj/
+out/
+
+# -----------------------------
+# Visual Studio
+# -----------------------------
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# -----------------------------
+# VS Code (if used)
+# -----------------------------
+.vscode/
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+
+# -----------------------------
+# OS files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# NuGet
+# -----------------------------
+*.nupkg
+packages/
+!packages/build/
+
+# -----------------------------
+# Azure / publish settings
+# -----------------------------
+*.publishsettings
+PublishScripts/
+
+# -----------------------------
+# Secrets / configs
+# -----------------------------
+appsettings.Development.json
+secrets.json
